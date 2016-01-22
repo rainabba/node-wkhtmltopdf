@@ -53,7 +53,6 @@ function wkhtmltopdf(input, options, callback) {
     
     if (logging) {
       console.log('WKHTMLTOPDF args:\n');
-      console.dir(args);
       console.log('\n');
     }
     
